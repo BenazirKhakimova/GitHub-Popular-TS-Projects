@@ -9,6 +9,7 @@ export const PopularTSRepoAPI = {
 				sort: 'stars',
 				order: 'desc',
 				page: page,
+				per_page: 10
 			},
 		})
 	},
